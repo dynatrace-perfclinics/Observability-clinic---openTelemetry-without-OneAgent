@@ -45,8 +45,8 @@ spec:
     exporters:
       logging:
       otlphttp:
-        endpoint: "https://bix24852.dev.dynatracelabs.com/api/v2/otlp"
-        headers: {"Authorization": "Api-Token dt0c01.SHOKL7XBN5AB6ACCCSUW2YNW.F2X2JXLCCM5RJKQOB3MGMXDXUTDIPTLP7HNQVFZFYLET2DKLAXS2E2EZHR2K3DGK"}
+        endpoint: "TENANTURL_TOREPLACE/api/v2/otlp"
+        headers: {"Authorization": "Api-Token DT_API_TOKEN_TO_REPLACE"}
       dynatrace:
         # optional - Dimensions specified here will be included as a dimension on every exported metric
         #            unless that metric already has a dimension with the same key.
